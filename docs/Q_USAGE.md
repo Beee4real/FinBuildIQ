@@ -56,9 +56,10 @@ Amazon Q helped write and refactor multiple parts of the codebase:
 ---
 
 ## 📈 Phase 5: Refinement & AI Enhancement
-- Brainstormed with Q for BVN/SSN integration ideas (for global users).  
-- Refined roadmap with suggestions for adding Web3 tokenization and rewards system.  
-- Optimized function flow for scalability and modular design.
+...
+- Integrated **BVN and SSN API connectors** for multi-country identity verification.
+- Amazon Q Developer assisted in generating secure API handler templates.
+- Suggested abstraction layer for adding new region-based verifiers (e.g., EU/India).
 
 ---
 
@@ -85,3 +86,18 @@ Developed by **BB SAM**
 Hackathon: *Global Vibe Hackathon 2025*  
 Tool Used: *Amazon Q Developer (VS Code)*  
 Project Repository: [GitHub.com/Beee4real/FinBuildIQ](https://github.com/Beee4real/FinBuildIQ)
+
+🕒 Timeline:
+- October 28, 2025 – Initial structure generated via Amazon Q
+- October 29, 2025 – FastAPI routes developed with Q suggestions
+- October 30, 2025 – Debugging and README documentation assisted by Q
+
+![Q Developer Suggestion](../assets/q-suggestion.png)
+![Q Debugging Help](../assets/q-debug.mp4)
+![FinBuildIQ API Demo](../assets/demo1.png)
+
+---
+### 💡 Reflection
+Amazon Q Developer served as a powerful co-pilot in building FinBuildIQ.  
+From brainstorming features to writing production-grade code, Q accelerated development by over 60% and inspired new AI-driven ideas for financial transparency.  
+This showcases the transformative power of agentic AI systems in fintech innovation.

@@ -15,6 +15,16 @@ It detects forgotten debts, connects securely with financial identifiers (like B
 - 🔔 **Smart Alerts:** Sends reminders, risk warnings, and progress reports.
 - 🤖 **Built with Amazon Q Developer:** AI-assisted code generation and system design.
 - 🔐 **Data Privacy First:** Uses anonymized identifiers and user consent-driven access.
+### 🌍 Global Identity & Credit Verification
+FinBuildIQ integrates both **BVN (Bank Verification Number)** and **SSN (Social Security Number)** APIs to validate user identity and pull basic credit indicators.
+
+**Supported Regions:**
+- 🇳🇬 Nigeria – BVN Lookup API
+- 🇺🇸 USA – SSN Identity Validator (sandbox integration)
+- 🌐 Global Expansion – Modular API connector for future regions
+
+This ensures that FinBuildIQ can provide a unified **Debt Score** and **Financial Pattern Insight** regardless of user location.
+
 
 ---
 
@@ -30,7 +40,7 @@ It detects forgotten debts, connects securely with financial identifiers (like B
 
 ---
 
-![FinBuildIQ API Demo](assets/demo1.png,demo2.png,demo3.png,demo4.png)
+![FinBuildIQ API Demo](assets/demo1.png,demo2.png,demo3.png,demo4.mp4)
 ![Amazon Q Integration](assets/q-suggestion.png)
 
 

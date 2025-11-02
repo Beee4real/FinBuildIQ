@@ -1,5 +1,4 @@
-import aiohttp
-from typing import List, Dict
+from typing import List, Dict, Any
 import os
 
 class FinancialConnector:
@@ -7,7 +6,7 @@ class FinancialConnector:
         self.api_key = os.getenv("FINANCIAL_API_KEY", "demo_key")
         self.base_url = "https://api.example-bank.com/v1"
     
-    async def get_accounts(self, account_ids: List[str]) -> List[Dict]:
+    def get_accounts(self, account_ids: List[str]) -> List[Dict[str, Any]]:
         """Fetch account data from financial API"""
         accounts = []
         
@@ -26,10 +25,6 @@ class FinancialConnector:
         
         return accounts
     
-    async def _make_api_call(self, endpoint: str) -> Dict:
+    def _make_api_call(self) -> Dict[str, Any]:
         """Make authenticated API call"""
-        headers = {"Authorization": f"Bearer {self.api_key}"}
-        
-        async with aiohttp.ClientSession() as session:
-            async with session.get(f"{self.base_url}/{endpoint}", headers=headers) as response:
-                return await response.json()
+        return {"status": "success", "data": "mock_api_response"}

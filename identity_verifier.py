@@ -45,4 +45,3 @@ def verify_identity(user_data: Dict) -> Dict:
             "verified": False,
             "message": "No valid identifier (BVN/SSN) provided."
         }
-
