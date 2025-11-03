@@ -44,12 +44,15 @@ This ensures that FinBuildIQ can provide a unified **Debt Score** and **Financia
 ![Amazon Q Integration](assets/q-suggestion.png)
 
 
-## ⚙️ Project Setup
+---
 
-### 1️⃣ Clone the repo
+## 🚀 Quick Start
+
+### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/FinBuildIQ.git
+git clone https://github.com/Beee4real/FinBuildIQ.git
 cd FinBuildIQ
+
 
 ---
 
